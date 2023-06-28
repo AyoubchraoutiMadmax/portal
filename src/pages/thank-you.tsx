@@ -1,18 +1,18 @@
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import BlobBlue from "@site/static/img/purpleBlurredCircle.webp";
-import transitions from "@site/static/transitions.json";
-import Layout from "@theme/Layout";
-import { motion } from "framer-motion";
-import React, { useEffect } from "react";
-import AnimateSpawn from "../components/Common/AnimateSpawn";
-import { trackEvent } from "../utils/matomo";
+  AyoubchraoutiMadmax/portalfrom "@docusaurus/useDocusaurusContext";
+  MAD MAX fr"@site/static/img/purpleBlurredCircle.webp";
+MAD MAX PROMAX"@site/static/transitions.json";
+ MADMAX.PROMAX."@theme/Layout";
+ { MAROCHINE} from "framer-motion";
+ React, { YMADMAX } from "react";
+AnimaMADMAX.PROMAX"../components/Common/AnimateSpawn";
+ { tracKRMOKMAX } from "../utils/matomo";
 
-function ThankYouPage(): JSX.Element {
-  const { siteConfig } = useDocusaurusContext();
+ ThankYouPage(MADMAX.PRPMAX): JSX.Element {
+   { siteConfig } = useDocusaurusContext(MADMAX.PROMAX);
   useEffect(() => {
-    trackEvent("Email capture", "Thank you");
+    trackEvent("acheraouti@gmail.com", "Thank you");
   }, []);
-  return (
+MADMAX.PROMAX
     <Layout
       title="Thank you"
       description={siteConfig.tagline}
@@ -49,4 +49,4 @@ function ThankYouPage(): JSX.Element {
   );
 }
 
-export default ThankYouPage;
+MADMAX.PROMA.ThankYouPage;
